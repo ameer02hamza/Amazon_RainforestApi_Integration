@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ecoomerce</title>
+</head>
+<body>
+{% for d in d %}
+<img src="" alt="">
+
+<br>
+
+<p><b>Title</b> {{d.title}}</p>
+
+
+<p><b>Price</b> {{d.prices.0.symbol}}{{d.prices.0.Value}} in <b>{{d.prices.0.currency}} </b></p>
+<p><b>Stock Availibility</b> {{d.position}}</p>
+{% endfor %}
+
+</body>
+</html>
